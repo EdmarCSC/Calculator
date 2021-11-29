@@ -1,0 +1,81 @@
+body{
+    padding: 5% 40%;
+}
+
+.contaner {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(8, 8, 8, 0.87);
+    border-radius: 20px;
+    padding: 6% 3%;
+    width: 24vw;
+    height: 80vh;
+}
+
+.contanerDisplay {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    background-color: rgba(95, 158, 160, 0.616);
+    padding-right: 10px;
+    border-radius: 0 0 20px 20px;
+    height: 20%;
+}
+
+.btnClear {
+    margin-top: 5%;
+    margin-left: 67%;
+    border-radius: 13px;
+    width: 30%;
+    height: 10%;
+    font-size: large;
+}
+
+.contanerGroup {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    background-color: rgba(95, 158, 160, 0.616);
+    padding-right: 10px;
+    border-radius: 20px 20px 0 0; 
+    height: 10%;
+    font-size: 15px;
+}
+
+.data {
+    margin: 3%;
+    font-size: 300%;
+}
+
+.contanerKeys {
+    display: grid;
+    grid-template-columns: repeat(4, 25% [col-start]);
+    grid-template-rows: repeat(4, 25% [row-start]);
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.603);
+    margin-top: 3%;
+    padding: 2%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.btnKey {
+    margin: 1px;
+    font-size: 25px;
+}
+
+.btnKeySeven {
+    border-radius: 20px 0 0 0;
+}
+
+.btnKeyPlus {
+    border-radius: 0 20px 0 0;
+}
+
+.btnKeyResult {
+    border-radius: 0 0 20px 0;
+}
+
+.btnComma {
+    border-radius: 0 0 0 20px;
+}

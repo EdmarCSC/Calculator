@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/calcStyle.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="contaner">
+        <div class="contanerGroup"></div>
+        <div class="contanerDisplay">
+            <label class="data">0</label>
+        </div>
+        
+        <button class="btnClear">C</button>
+        <div class="contanerKeys">  
+            <button class="btnKeySeven btnKey" id="num" data-num="7">7</button>
+            <button class="btnKey" id="num" data-num="8">8</button>
+            <button class="btnKey" id="num" data-num="9">9</button>
+            
+            <button class="btnKeyPlus btnKey" id="opr" data-ops="/">/</button>
+            
+            <button class="btnKey" id="num" data-num="4">4</button>
+            <button class="btnKey" id="num" data-num="5">5</button>
+            <button class="btnKey" id="num" data-num="6">6</button>
+            
+            <button class="btnKey" id="opr" data-ops="*">x</button>
+            
+            <button class="btnKey" id="num" data-num="1">1</button>
+            <button class="btnKey" id="num" data-num="2">2</button>
+            <button class="btnKey" id="num" data-num="3">3</button>
+            
+            <button class="btnKey" id="opr" data-ops="-">-</button>
+            
+            <button class="btnComma btnKey">,</button>
+            <button class="btnKey" id="num" data-num="0">0</button>
+            <button class="btnKey" id="equals" data-result="">=</button>
+            
+            <button class="btnKeyResult btnKey" id="opr" data-ops="+">+</button>
+        </div>
+    </div>
+
+    <script src="./script/scriptCalc.js"></script>
+</body>
+</html>
